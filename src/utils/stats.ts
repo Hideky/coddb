@@ -1,0 +1,47 @@
+const artifactStatsIconBaseURL = '/img/icons/'
+const artifactStatsIconURL = {
+  hp: artifactStatsIconBaseURL + 'hp.png',
+  gathering: artifactStatsIconBaseURL + 'gathering.png',
+  engineering: artifactStatsIconBaseURL + 'engineering.png',
+  garrison: artifactStatsIconBaseURL + 'garrison.png',
+  cavalry: artifactStatsIconBaseURL + 'cavalry.png',
+  overall: artifactStatsIconBaseURL + 'overall.png',
+  magic: artifactStatsIconBaseURL + 'magic.png',
+  skill: artifactStatsIconBaseURL + 'skill.png',
+  peacekeeping: artifactStatsIconBaseURL + 'peacekeeping.png',
+  marksman: artifactStatsIconBaseURL + 'marksman.png',
+  infantry: artifactStatsIconBaseURL + 'infantry.png',
+  rally: artifactStatsIconBaseURL + 'rally.png',
+  atk: artifactStatsIconBaseURL + 'atk.png',
+  def: artifactStatsIconBaseURL + 'def.png',
+  speed: artifactStatsIconBaseURL + 'speed.png',
+}
+
+const artifactStatsIcon = {
+  'Legion Load Capacity': artifactStatsIconURL.gathering,
+  'Overall Gather Speed': artifactStatsIconURL.gathering,
+  'Building Engineering': artifactStatsIconURL.engineering,
+  'Legion ATK': artifactStatsIconURL.atk,
+  'Rallied Army ATK': artifactStatsIconURL.atk,
+  'Infantry Unit ATK': artifactStatsIconURL.atk,
+  'Magic Unit ATK': artifactStatsIconURL.atk,
+  'Cavalry Unit ATK': artifactStatsIconURL.atk,
+  'Marksman Unit ATK': artifactStatsIconURL.atk,
+  'Garrisoned Army ATK': artifactStatsIconURL.atk,
+  'Peacekeeping Damage': artifactStatsIconURL.atk,
+  'Legion DEF': artifactStatsIconURL.def,
+  'Infantry Unit DEF': artifactStatsIconURL.def,
+  'Cavalry Unit DEF': artifactStatsIconURL.def,
+  'Marksman Unit DEF': artifactStatsIconURL.def,
+  'Magic Unit DEF': artifactStatsIconURL.def,
+  'Flying Unit DEF': artifactStatsIconURL.def,
+  'Peacekeeping Damage Taken': artifactStatsIconURL.def,
+  'Legion HP': artifactStatsIconURL.hp,
+  'Marksman Unit HP': artifactStatsIconURL.hp,
+  'Infantry Unit HP': artifactStatsIconURL.hp,
+  'Cavalry Unit HP': artifactStatsIconURL.hp,
+  'Magic Unit HP': artifactStatsIconURL.hp,
+  'Legion March Speed': artifactStatsIconURL.speed,
+}
+
+export const getStatsIcon = (stats) => artifactStatsIcon[stats]

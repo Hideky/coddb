@@ -1,0 +1,23 @@
+@layer base {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(71, 85, 105) rgb(30, 41, 59);
+  }
+  
+  body::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    @apply bg-stone-800;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    @apply bg-stone-600 rounded;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    @apply bg-stone-500;
+  }
+}

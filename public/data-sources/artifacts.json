@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": 19,
+            "img": "/img/sorland_blade.png",
+            "img_full": "/img/sorland_blade_img.png",
+            "name": "Sorland's Blade",
+            "categories": ["Cavalry", "PvP", "Assault"],
+            "quality": "legendary",
+            "first_stats": "Cavalry Unit ATK",
+            "secondary_stats": "Legion March Speed",
+            "cooldown": "1m30",
+            "rage_cost": 600,
+            "ability_name": "Sword Oath",
+            "ability_description":"Deals damage to up to 2 enemy Legions in a designated arc.\n\nDamage Type: Artifact Skill Damage (Physical)\nDamage Factor: 1600\n\nTargets take 25% less damage per additional target.\n\nYour Legion gains Haste: March Speed +20% for 10s.",
+            "ability_upgrade": "Skill Damage Factor: 1600/2000/2400/2800/3200"
+        },
+        {
+            "id": 11,
+            "img": "/img/dragonrift.png",
+            "img_full": "/img/dragonrift_full.png",
+            "name": "Dragonrift",
+            "categories": ["Infantry", "PvP", "Assault"],
+            "quality": "legendary",
+            "first_stats": "Infantry Unit ATK",
+            "secondary_stats": "Legion ATK",
+            "cooldown": "1m30",
+            "rage_cost": 400,
+            "ability_name": "Dragon Tamer",
+            "ability_description":"Deals damage to the selected Legion.\n\nDamage Type: Artifact Skill Damage (Physical)\nDamage Factor: 2000\n\nIf this Skill defeats the target, your Legion gains Physical Keen: Physical ATK +16% for 6s\n\nIf this Skill does not defeat the target, they gain Bleed: deals damage every second for 3s.\n\nDamage Type: Artifact Skill Damage (Physical)\nDamage Factor: 150",
+            "ability_upgrade": "Skill Damage Factor: 2000/2500/3000/3500/4000\nPhysical ATK bonus: 16%/20%/24%/28%/32%\nSkill Damage Factor: 150/200/250/300/350"
+        }
+    ]
+}

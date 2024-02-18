@@ -1,0 +1,49 @@
+@layer components {
+    body {
+    --toastify-color-light: theme(colors.stone.100);
+    --toastify-color-dark: theme(colors.stone.900);
+    --toastify-color-info: theme(colors.blue.500);
+    --toastify-color-success: theme(colors.emerald.500);
+    --toastify-color-warning: theme(colors.yellow.500);
+    --toastify-color-error: theme(colors.red.500);
+    --toastify-color-transparent: rgba(255, 255, 255, 0.7);
+
+    --toastify-icon-color-info: var(--toastify-color-info);
+    --toastify-icon-color-success: var(--toastify-color-success);
+    --toastify-icon-color-warning: var(--toastify-color-warning);
+    --toastify-icon-color-error: var(--toastify-color-error);
+
+    --toastify-toast-width: 340px;
+    --toastify-toast-background: theme(colors.stone.100);
+    --toastify-toast-min-height: 64px;
+    --toastify-toast-max-height: 800px;
+    --toastify-font-family: sans-serif;
+    --toastify-z-index: 9999;
+
+    --toastify-text-color-light: #757575;
+    --toastify-text-color-dark: theme(colors.stone.100);
+
+    --toastify-text-color-info: theme(colors.stone.100);
+    --toastify-text-color-success: theme(colors.stone.100);
+    --toastify-text-color-warning: theme(colors.stone.100);
+    --toastify-text-color-error: theme(colors.stone.100);
+
+    --toastify-spinner-color: #616161;
+    --toastify-spinner-color-empty-area: #e0e0e0;
+
+    --toastify-color-progress-light: linear-gradient(
+        to right,
+        #4cd964,
+        #5ac8fa,
+        #007aff,
+        #34aadc,
+        #5856d6,
+        #ff2d55
+    );
+    --toastify-color-progress-dark: #bb86fc;
+    --toastify-color-progress-info: var(--toastify-color-info);
+    --toastify-color-progress-success: var(--toastify-color-success);
+    --toastify-color-progress-warning: var(--toastify-color-warning);
+    --toastify-color-progress-error: var(--toastify-color-error);
+    }
+}
